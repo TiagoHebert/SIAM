@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <LINK rel="stylesheet" href="Pagina Cadastro.css">
+    <title>Cadastro SIAM</title>
+</head>
+<body>
+    <div class="box">
+        <br><br><br><br><br><br>
+        <img src="SIAM3.png" height="170" width="400"/>
+        <br>
+        <form action="Adicionacadastro.php" METHOD="POST">
+            <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="Nome" id="Nome" class="inputUser" required>
+                    <label for="Nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="CPF" id="CPF" class="inputUser" required>
+                    <label for="CPF" class="labelInput">CPF</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="Telefone" id="Telefone" class="inputUser" required>
+                    <label for="Telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Nomeusuario" id="Nomeusuario" class="inputUser" required>
+                    <label for="Nome de usuario" class="labelInput">Nome de Usuario</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="Email" id="Email" class="inputUser" required>
+                    <label for="Email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="Senha" id="Senha" class="inputUser" required>
+                    <label for="Senha" class="labelInput">Senha</label>
+                </div>
+                <br><br>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,18 @@
+.legenda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart{
+    width: 15%;
+}
+
+.form{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
