@@ -1,5 +1,5 @@
 <html>
-    <h1>Produtos em Estoque</h1>
+    <h1>Visitas cadastradas</h1>
 <table>
     <thead>
     <tr>
